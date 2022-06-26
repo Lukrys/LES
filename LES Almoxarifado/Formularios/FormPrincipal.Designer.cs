@@ -32,12 +32,13 @@
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.menuItemPrincipalArquivo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemPrincipalCadFunc = new System.Windows.Forms.ToolStripMenuItem();
-            this.cadastroDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeFornecedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeItensToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemPrincipalSolicitacoes = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemPrincipalSobre = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDeUsuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +47,7 @@
             this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuItemPrincipalArquivo,
             this.menuItemPrincipalCadFunc,
+            this.usuáriosToolStripMenuItem,
             this.menuItemPrincipalSolicitacoes,
             this.menuItemPrincipalSobre});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
@@ -62,19 +64,11 @@
             // menuItemPrincipalCadFunc
             // 
             this.menuItemPrincipalCadFunc.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroDeUsuariosToolStripMenuItem,
             this.cadastroDeFornecedoresToolStripMenuItem,
             this.cadastroDeItensToolStripMenuItem});
             this.menuItemPrincipalCadFunc.Name = "menuItemPrincipalCadFunc";
             this.menuItemPrincipalCadFunc.Size = new System.Drawing.Size(66, 20);
             this.menuItemPrincipalCadFunc.Text = "Cadastro";
-            // 
-            // cadastroDeUsuariosToolStripMenuItem
-            // 
-            this.cadastroDeUsuariosToolStripMenuItem.Name = "cadastroDeUsuariosToolStripMenuItem";
-            this.cadastroDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.cadastroDeUsuariosToolStripMenuItem.Text = "Cadastro de Usuários";
-            this.cadastroDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeUsuariosToolStripMenuItem_Click);
             // 
             // cadastroDeFornecedoresToolStripMenuItem
             // 
@@ -111,6 +105,20 @@
             this.sobreToolStripMenuItem.Text = "Sobre";
             this.sobreToolStripMenuItem.Click += new System.EventHandler(this.SobreToolStripMenuItem_Click);
             // 
+            // usuáriosToolStripMenuItem
+            // 
+            this.usuáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cadastroDeUsuáriosToolStripMenuItem});
+            this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
+            this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.usuáriosToolStripMenuItem.Text = "Usuários";
+            // 
+            // cadastroDeUsuáriosToolStripMenuItem
+            // 
+            this.cadastroDeUsuáriosToolStripMenuItem.Name = "cadastroDeUsuáriosToolStripMenuItem";
+            this.cadastroDeUsuáriosToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.cadastroDeUsuáriosToolStripMenuItem.Text = "Cadastro de Usuários";
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,9 +146,10 @@
         private System.Windows.Forms.ToolStripMenuItem menuItemPrincipalSolicitacoes;
         private System.Windows.Forms.ToolStripMenuItem menuItemPrincipalSobre;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cadastroDeUsuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroDeFornecedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroDeItensToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usuáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDeUsuáriosToolStripMenuItem;
     }
 }
 
