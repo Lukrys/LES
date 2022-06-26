@@ -88,6 +88,7 @@
             this.cadastroDeItensToolStripMenuItem.Name = "cadastroDeItensToolStripMenuItem";
             this.cadastroDeItensToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.cadastroDeItensToolStripMenuItem.Text = "Cadastro de Itens";
+            this.cadastroDeItensToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeItensToolStripMenuItem_Click);
             // 
             // menuItemPrincipalSolicitacoes
             // 
