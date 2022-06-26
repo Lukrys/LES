@@ -32,6 +32,9 @@
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.menuItemPrincipalArquivo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemPrincipalCadFunc = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDeFornecedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDeItensToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemPrincipalSolicitacoes = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemPrincipalSobre = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,9 +61,33 @@
             // 
             // menuItemPrincipalCadFunc
             // 
+            this.menuItemPrincipalCadFunc.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cadastroDeUsuariosToolStripMenuItem,
+            this.cadastroDeFornecedoresToolStripMenuItem,
+            this.cadastroDeItensToolStripMenuItem});
             this.menuItemPrincipalCadFunc.Name = "menuItemPrincipalCadFunc";
             this.menuItemPrincipalCadFunc.Size = new System.Drawing.Size(66, 20);
             this.menuItemPrincipalCadFunc.Text = "Cadastro";
+            // 
+            // cadastroDeUsuariosToolStripMenuItem
+            // 
+            this.cadastroDeUsuariosToolStripMenuItem.Name = "cadastroDeUsuariosToolStripMenuItem";
+            this.cadastroDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.cadastroDeUsuariosToolStripMenuItem.Text = "Cadastro de Usuários";
+            this.cadastroDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeUsuariosToolStripMenuItem_Click);
+            // 
+            // cadastroDeFornecedoresToolStripMenuItem
+            // 
+            this.cadastroDeFornecedoresToolStripMenuItem.Name = "cadastroDeFornecedoresToolStripMenuItem";
+            this.cadastroDeFornecedoresToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.cadastroDeFornecedoresToolStripMenuItem.Text = "Cadastro de Fornecedores";
+            this.cadastroDeFornecedoresToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeFornecedoresToolStripMenuItem_Click);
+            // 
+            // cadastroDeItensToolStripMenuItem
+            // 
+            this.cadastroDeItensToolStripMenuItem.Name = "cadastroDeItensToolStripMenuItem";
+            this.cadastroDeItensToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.cadastroDeItensToolStripMenuItem.Text = "Cadastro de Itens";
             // 
             // menuItemPrincipalSolicitacoes
             // 
@@ -110,6 +137,9 @@
         private System.Windows.Forms.ToolStripMenuItem menuItemPrincipalSolicitacoes;
         private System.Windows.Forms.ToolStripMenuItem menuItemPrincipalSobre;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDeUsuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDeFornecedoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDeItensToolStripMenuItem;
     }
 }
 

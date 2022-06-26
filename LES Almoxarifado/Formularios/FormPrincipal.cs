@@ -14,7 +14,7 @@ namespace LES_Almoxarifado
 {
     public partial class FormPrincipal : Form
     {
-        
+        public static FormCadastroFornecedores formCadastroFornecedores = new FormCadastroFornecedores();
 
         public FormPrincipal()
         {
@@ -35,6 +35,16 @@ namespace LES_Almoxarifado
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             
+        }
+
+        private void cadastroDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cadastroDeFornecedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formCadastroFornecedores.Show();
         }
     }
 }

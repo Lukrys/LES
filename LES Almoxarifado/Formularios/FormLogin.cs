@@ -32,24 +32,25 @@ namespace LES_Almoxarifado.Formularios
         {
             try
             {
-                if(!String.IsNullOrEmpty(txtFormLoginUser.Text) && !String.IsNullOrEmpty(txtFormLoginPass.Text))
+                if(String.IsNullOrEmpty(txtFormLoginUser.Text) && String.IsNullOrEmpty(txtFormLoginPass.Text))
                 {
-                    if(txtFormLoginUser.Text == defaultUser && txtFormLoginPass.Text == defaultPassword)
-                    {
-                        Program.usuarioAutorizado = true;
-                        this.Hide();
-                        formPrincipal.Show();
-                    }
-                    /*else if(ConexaoBD.Login(txtFormLoginUser.Text, txtFormLoginPass.Text))
-                    {
-                        Program.usuarioAutorizado = true;
-                        this.Hide();
-                        formPrincipal.Show();
-                    }*/
+                    MessageBox.Show("Usuário ou Senha não podem ser vazios", "Erro");
                 }
                 else
                 {
-                    MessageBox.Show("Usuário ou Senha não podem ser vazios", "Erro"); 
+                    /*if(txtFormLoginUser.Text == defaultUser && txtFormLoginPass.Text == defaultPassword)
+                   {
+                       Program.usuarioAutorizado = true;
+                       this.Hide();
+                       formPrincipal.Show();
+                   }
+                   else if(ConexaoBD.Login(txtFormLoginUser.Text, txtFormLoginPass.Text))
+                   {
+                       Program.usuarioAutorizado = true;
+                       this.Hide();
+                       formPrincipal.Show();
+                   }*/
+                    formPrincipal.Show();//usado apenas para teste sem o banco
                 }
             }
             catch (Exception ex)
@@ -59,5 +60,9 @@ namespace LES_Almoxarifado.Formularios
             
         }
 
+        private void btnLoginRecuperar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

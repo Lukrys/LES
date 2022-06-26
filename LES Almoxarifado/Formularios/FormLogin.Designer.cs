@@ -88,6 +88,7 @@
             this.btnLoginRecuperar.TabIndex = 5;
             this.btnLoginRecuperar.Text = "Recuperar Senha";
             this.btnLoginRecuperar.UseVisualStyleBackColor = true;
+            this.btnLoginRecuperar.Click += new System.EventHandler(this.btnLoginRecuperar_Click);
             // 
             // btnLoginEntrar
             // 
