@@ -32,6 +32,7 @@ C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\Les2022-
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\Les2022-main\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.CopyComplete
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\Les2022-main\LES Almoxarifado\obj\Debug\LES Almoxarifado.exe
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\Les2022-main\LES Almoxarifado\obj\Debug\LES Almoxarifado.pdb
+<<<<<<< HEAD
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES_Final\LES Almoxarifado\bin\Debug\LES Almoxarifado.exe.config
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES_Final\LES Almoxarifado\bin\Debug\LES Almoxarifado.exe
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES_Final\LES Almoxarifado\bin\Debug\LES Almoxarifado.pdb
@@ -48,6 +49,8 @@ C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES_Fina
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES_Final\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.CopyComplete
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES_Final\LES Almoxarifado\obj\Debug\LES Almoxarifado.exe
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES_Final\LES Almoxarifado\obj\Debug\LES Almoxarifado.pdb
+=======
+>>>>>>> 10d6187 (Alterações no form principal)
 C:\LES\LES\LES Almoxarifado\bin\Debug\LES Almoxarifado.exe.config
 C:\LES\LES\LES Almoxarifado\bin\Debug\LES Almoxarifado.exe
 C:\LES\LES\LES Almoxarifado\bin\Debug\LES Almoxarifado.pdb
