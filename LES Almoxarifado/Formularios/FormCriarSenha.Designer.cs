@@ -88,7 +88,7 @@ namespace LES_Almoxarifado.Formularios
             this.Controls.Add(this.txtCriaSenha);
             this.Controls.Add(this.label1);
             this.Name = "FormCriarSenha";
-            this.Text = "FormCriarSenha";
+            this.Text = "Criar Nova senha";
             this.ResumeLayout(false);
             this.PerformLayout();
 

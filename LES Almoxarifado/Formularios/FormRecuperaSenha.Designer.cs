@@ -126,7 +126,7 @@ namespace LES_Almoxarifado.Formularios
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "FormRecuperaSenha";
-            this.Text = "FormRecuperaSenha";
+            this.Text = "Recuperar Senha";
             this.ResumeLayout(false);
             this.PerformLayout();
 
