@@ -17,7 +17,6 @@ namespace LES_Almoxarifado.Formularios
         private string defaultPassword = "senhamestra";
 
         static FormPrincipal formPrincipal = new FormPrincipal();
-        public static FormRecuperaSenha formRecuperaSenha = new FormRecuperaSenha();
 
         public FormLogin()
         {
@@ -63,7 +62,7 @@ namespace LES_Almoxarifado.Formularios
 
         private void btnLoginRecuperar_Click(object sender, EventArgs e)
         {
-            formRecuperaSenha.Show();
+            
         }
     }
 }
