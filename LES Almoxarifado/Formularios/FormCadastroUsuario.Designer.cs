@@ -215,7 +215,6 @@
             this.Controls.Add(this.lblSobrenome);
             this.Controls.Add(this.lblNome);
             this.Name = "FormCadastroUsuario";
-            this.Text = "FormCadastroUsuario";
             this.Text = "Cadastrar usuarios";
             this.ResumeLayout(false);
             this.PerformLayout();

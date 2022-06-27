@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using LES_Almoxarifado.Classes;
 using System.Windows.Forms;
 using LES_Almoxarifado.Formularios;
+using LES_Almoxarifado.Classes.Modelos;
+using System.Collections;
 
 namespace LES_Almoxarifado
 {

@@ -70,7 +70,6 @@
   <ItemGroup>
     <Compile Include="Classes\Util\ConexaoBD.cs" />
     <Compile Include="Classes\Util\CarregaArquivoConf.cs" />
-    <Compile Include="Classes\Modelos\Cargo.cs" />
     <Compile Include="Classes\Modelos\Categoria.cs" />
     <Compile Include="Classes\Modelos\EstoqueMaterial.cs" />
     <Compile Include="Classes\Modelos\Fornecedor.cs" />
@@ -105,6 +104,12 @@
     </Compile>
     <Compile Include="Formularios\FormCriarSenha.Designer.cs">
       <DependentUpon>FormCriarSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormIncluirItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormIncluirItem.Designer.cs">
+      <DependentUpon>FormIncluirItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormInfoSolicitacao.cs">
       <SubType>Form</SubType>
@@ -167,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormCriarSenha.resx">
       <DependentUpon>FormCriarSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormIncluirItem.resx">
+      <DependentUpon>FormIncluirItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormInfoSolicitacao.resx">
       <DependentUpon>FormInfoSolicitacao.cs</DependentUpon>

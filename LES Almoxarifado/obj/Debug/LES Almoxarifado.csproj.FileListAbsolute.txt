@@ -100,3 +100,4 @@ C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES 
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormInventario.resources
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormNovaSolicitacao.resources
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormSolicitacoes.resources
+C:\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormIncluirItem.resources

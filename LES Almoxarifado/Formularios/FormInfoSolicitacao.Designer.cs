@@ -65,8 +65,9 @@
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(110, 30);
             this.btnSair.TabIndex = 2;
-            this.btnSair.Text = "Sair";
+            this.btnSair.Text = "Fechar";
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // lblFuncionario
             // 
@@ -129,6 +130,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(271, 20);
             this.textBox1.TabIndex = 9;
+            this.textBox1.Text = "almoxarifado";
             // 
             // textBox2
             // 
@@ -137,6 +139,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(271, 20);
             this.textBox2.TabIndex = 10;
+            this.textBox2.Text = "Kit embreagem";
             // 
             // maskedTextBox1
             // 
@@ -146,6 +149,7 @@
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
             this.maskedTextBox1.TabIndex = 11;
+            this.maskedTextBox1.Text = "27062022";
             // 
             // textBox3
             // 
@@ -154,6 +158,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(271, 20);
             this.textBox3.TabIndex = 12;
+            this.textBox3.Text = "Sorocaba Motors";
             // 
             // textBox4
             // 
@@ -162,6 +167,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 13;
+            this.textBox4.Text = "4";
             // 
             // textBox5
             // 
@@ -170,6 +176,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 14;
+            this.textBox5.Text = "2068.80";
             // 
             // FormInfoSolicitacao
             // 

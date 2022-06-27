@@ -15,8 +15,8 @@ namespace LES_Almoxarifado.Formularios
     public partial class FormLogin : Form
     {
         public string strConn;
-        private string defaultUser = "sysadmin";
-        private string defaultPassword = "senhamestra";
+        private string defaultUser = "almoxarifado";
+        private string defaultPassword = "teste123";
 
         static FormPrincipal formPrincipal = new FormPrincipal();
         static FormRecuperaSenha formRecuperaSenha = new FormRecuperaSenha();

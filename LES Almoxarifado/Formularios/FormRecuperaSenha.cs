@@ -26,13 +26,18 @@ namespace LES_Almoxarifado.Formularios
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Código incorreto!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
 
         private void CriarSenha_Click(object sender, EventArgs e)
         {
             formRecuperaSenha.Close();
             formCriarSenha.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Verifique a caixa de entrada do seu e-mail de recuperação.", "Nova senha enviada", MessageBoxButtons.OK);
         }
     }
 }

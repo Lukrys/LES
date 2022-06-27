@@ -19,13 +19,13 @@ namespace LES_Almoxarifado.Formularios
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            String cargo, email, login, nome, sobrenome, dataNascimento;
-            cargo = txtCargo.Text;
-            email = txtEmail.Text;
-            login = txtLogin.Text;
-            nome = txtNome.Text;
-            sobrenome = txtSobrenome.Text;
-            dataNascimento = mskdTxtDatNasc.Text;
+            txtCargo.Clear();
+            txtEmail.Clear();
+            txtLogin.Clear();
+            txtNome.Clear();
+            txtSobrenome.Clear();
+            mskdTxtDatNasc.Clear();
+            MessageBox.Show("Usuário cadastrado com sucesso.", "Usuário cadastrado", MessageBoxButtons.OK);
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
