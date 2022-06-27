@@ -42,20 +42,20 @@
             this.btnIncluir.BackColor = System.Drawing.Color.SteelBlue;
             this.btnIncluir.FlatAppearance.BorderSize = 0;
             this.btnIncluir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Navy;
-            this.btnIncluir.Location = new System.Drawing.Point(192, 229);
+            this.btnIncluir.Location = new System.Drawing.Point(230, 240);
             this.btnIncluir.Name = "btnIncluir";
             this.btnIncluir.Size = new System.Drawing.Size(81, 31);
             this.btnIncluir.TabIndex = 0;
             this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = false;
-            this.btnIncluir.Click += new System.EventHandler(this.btnAlterar_Click);
+            this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
             // btnFechar
             // 
             this.btnFechar.BackColor = System.Drawing.Color.IndianRed;
             this.btnFechar.FlatAppearance.BorderSize = 0;
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
-            this.btnFechar.Location = new System.Drawing.Point(337, 229);
+            this.btnFechar.Location = new System.Drawing.Point(375, 240);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(81, 31);
             this.btnFechar.TabIndex = 1;
@@ -71,7 +71,7 @@
             this.columnHeader3,
             this.columnHeader4});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(125, 64);
+            this.listView1.Location = new System.Drawing.Point(163, 75);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(360, 136);
             this.listView1.TabIndex = 2;
@@ -102,7 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(620, 289);
+            this.ClientSize = new System.Drawing.Size(685, 359);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnIncluir);

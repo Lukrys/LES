@@ -108,10 +108,10 @@
             "Teclado",
             "Computador",
             "Kit embreagem",
-            "Lâmpada de farol",
+            "Lâmpada do farol",
             "Óleo do motor",
             "Filtro de óleo",
-            "Filtro de combústivel"});
+            "Filtro de combustível"});
             this.cbxMaterial.Location = new System.Drawing.Point(73, 75);
             this.cbxMaterial.Name = "cbxMaterial";
             this.cbxMaterial.Size = new System.Drawing.Size(190, 21);

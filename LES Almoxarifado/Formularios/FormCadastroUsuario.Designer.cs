@@ -146,7 +146,7 @@
             // 
             this.cbxTipoUser.FormattingEnabled = true;
             this.cbxTipoUser.Items.AddRange(new object[] {
-            "Funcionário",
+            "Comum",
             "Administrador"});
             this.cbxTipoUser.Location = new System.Drawing.Point(356, 47);
             this.cbxTipoUser.Name = "cbxTipoUser";

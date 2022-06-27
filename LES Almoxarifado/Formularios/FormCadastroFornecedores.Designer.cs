@@ -37,7 +37,7 @@
             // lblIncluirFornecedor
             // 
             this.lblIncluirFornecedor.AutoSize = true;
-            this.lblIncluirFornecedor.Location = new System.Drawing.Point(36, 34);
+            this.lblIncluirFornecedor.Location = new System.Drawing.Point(115, 105);
             this.lblIncluirFornecedor.Name = "lblIncluirFornecedor";
             this.lblIncluirFornecedor.Size = new System.Drawing.Size(89, 13);
             this.lblIncluirFornecedor.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // txtFornecedor
             // 
-            this.txtFornecedor.Location = new System.Drawing.Point(146, 31);
+            this.txtFornecedor.Location = new System.Drawing.Point(225, 102);
             this.txtFornecedor.Name = "txtFornecedor";
             this.txtFornecedor.Size = new System.Drawing.Size(252, 20);
             this.txtFornecedor.TabIndex = 1;
@@ -53,7 +53,7 @@
             // btnIncluir
             // 
             this.btnIncluir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnIncluir.Location = new System.Drawing.Point(404, 31);
+            this.btnIncluir.Location = new System.Drawing.Point(483, 102);
             this.btnIncluir.Name = "btnIncluir";
             this.btnIncluir.Size = new System.Drawing.Size(75, 23);
             this.btnIncluir.TabIndex = 2;
@@ -66,7 +66,7 @@
             this.btnFechar.BackColor = System.Drawing.Color.IndianRed;
             this.btnFechar.FlatAppearance.BorderSize = 0;
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnFechar.Location = new System.Drawing.Point(214, 183);
+            this.btnFechar.Location = new System.Drawing.Point(302, 278);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(82, 31);
             this.btnFechar.TabIndex = 3;
@@ -76,7 +76,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(404, 115);
+            this.btnExcluir.Location = new System.Drawing.Point(483, 186);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(75, 23);
             this.btnExcluir.TabIndex = 4;
@@ -87,7 +87,7 @@
             // lblExcluirFornecedor
             // 
             this.lblExcluirFornecedor.AutoSize = true;
-            this.lblExcluirFornecedor.Location = new System.Drawing.Point(36, 120);
+            this.lblExcluirFornecedor.Location = new System.Drawing.Point(115, 191);
             this.lblExcluirFornecedor.Name = "lblExcluirFornecedor";
             this.lblExcluirFornecedor.Size = new System.Drawing.Size(92, 13);
             this.lblExcluirFornecedor.TabIndex = 5;
@@ -96,7 +96,7 @@
             // cbxFornecedor
             // 
             this.cbxFornecedor.FormattingEnabled = true;
-            this.cbxFornecedor.Location = new System.Drawing.Point(146, 115);
+            this.cbxFornecedor.Location = new System.Drawing.Point(225, 186);
             this.cbxFornecedor.Name = "cbxFornecedor";
             this.cbxFornecedor.Size = new System.Drawing.Size(252, 21);
             this.cbxFornecedor.TabIndex = 6;
@@ -105,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 235);
+            this.ClientSize = new System.Drawing.Size(676, 367);
             this.Controls.Add(this.cbxFornecedor);
             this.Controls.Add(this.lblExcluirFornecedor);
             this.Controls.Add(this.btnExcluir);

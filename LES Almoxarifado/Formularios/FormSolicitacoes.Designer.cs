@@ -51,7 +51,7 @@
             this.btnFechar.BackColor = System.Drawing.Color.IndianRed;
             this.btnFechar.FlatAppearance.BorderSize = 0;
             this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnFechar.Location = new System.Drawing.Point(239, 183);
+            this.btnFechar.Location = new System.Drawing.Point(366, 243);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(94, 35);
             this.btnFechar.TabIndex = 0;
@@ -64,7 +64,7 @@
             this.btnAdicionar.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnAdicionar.FlatAppearance.BorderSize = 0;
             this.btnAdicionar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Navy;
-            this.btnAdicionar.Location = new System.Drawing.Point(91, 183);
+            this.btnAdicionar.Location = new System.Drawing.Point(218, 243);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(94, 35);
             this.btnAdicionar.TabIndex = 1;
@@ -95,7 +95,7 @@
             listViewItem10,
             listViewItem11,
             listViewItem12});
-            this.listView1.Location = new System.Drawing.Point(116, 27);
+            this.listView1.Location = new System.Drawing.Point(243, 87);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.ShowGroups = false;
@@ -113,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 239);
+            this.ClientSize = new System.Drawing.Size(689, 360);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.btnAdicionar);
             this.Controls.Add(this.btnFechar);
