@@ -6,7 +6,6 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -19,9 +18,7 @@
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -185,6 +182,8 @@
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnCancelar.FlatAppearance.BorderSize = 0;
+            this.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Location = new System.Drawing.Point(367, 303);
             this.btnCancelar.Name = "btnCancelar";
@@ -217,13 +216,12 @@
             this.Controls.Add(this.lblNome);
             this.Name = "FormCadastroUsuario";
             this.Text = "FormCadastroUsuario";
+            this.Text = "Cadastrar usuarios";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
-
         #endregion
-
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblSobrenome;
         private System.Windows.Forms.Label lblDatNasc;
