@@ -69,3 +69,22 @@ C:\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.CoreCompileInputs.
 C:\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.CopyComplete
 C:\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.exe
 C:\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.pdb
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\bin\Debug\LES Almoxarifado.exe.config
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\bin\Debug\LES Almoxarifado.exe
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\bin\Debug\LES Almoxarifado.pdb
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.AssemblyReference.cache
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormCadastroItem.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormCadastroUsuario.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormConfiguraBanco.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormCriarSenha.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormLogin.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.FormPrincipal.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormRecuperaSenha.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormSobre.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.FormSplash.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Properties.Resources.resources
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.GenerateResource.cache
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.CoreCompileInputs.cache
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.CopyComplete
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.exe
+C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.pdb
