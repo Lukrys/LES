@@ -70,7 +70,6 @@
   <ItemGroup>
     <Compile Include="Classes\Util\ConexaoBD.cs" />
     <Compile Include="Classes\Util\CarregaArquivoConf.cs" />
-    <Compile Include="Classes\Modelos\Cargo.cs" />
     <Compile Include="Classes\Modelos\Categoria.cs" />
     <Compile Include="Classes\Modelos\EstoqueMaterial.cs" />
     <Compile Include="Classes\Modelos\Fornecedor.cs" />

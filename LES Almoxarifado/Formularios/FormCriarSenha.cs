@@ -16,5 +16,10 @@ namespace LES_Almoxarifado.Formularios
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

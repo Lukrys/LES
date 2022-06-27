@@ -16,5 +16,20 @@ namespace LES_Almoxarifado.Formularios
         {
             InitializeComponent();
         }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        private void txtQtde_KeyDown(object sender, KeyEventArgs e)
+        {
+            txtTotal.Text = "R$ 2068,80";
+        }
+
+        private void btnAdicionar_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

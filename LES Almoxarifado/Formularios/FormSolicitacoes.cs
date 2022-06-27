@@ -13,6 +13,7 @@ namespace LES_Almoxarifado.Formularios
     public partial class FormSolicitacoes : Form
     {
         static FormNovaSolicitacao formNovaSolicitacao = new FormNovaSolicitacao();
+        static FormInfoSolicitacao formInfoSolicitacao = new FormInfoSolicitacao();
 
         public FormSolicitacoes()
         {
@@ -27,6 +28,11 @@ namespace LES_Almoxarifado.Formularios
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
             formNovaSolicitacao.Show();
+        }
+
+        private void listView1_ItemActivate(object sender, EventArgs e)
+        {
+            formInfoSolicitacao.Show();
         }
     }
 }

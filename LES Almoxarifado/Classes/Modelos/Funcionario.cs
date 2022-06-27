@@ -12,7 +12,7 @@ namespace LES_Almoxarifado.Classes.Modelos
         private string Nome { get; set; }
         private string Sobrenome { get; set; }
         private DateTime DataNascimento { get; set; }
-        private Cargo Cargo { get; set; }
+        private string Cargo { get; set; }
         private Funcionario Gerente { get; set; }
         private bool Ativo { get; set; }
 
@@ -25,7 +25,7 @@ namespace LES_Almoxarifado.Classes.Modelos
             this.DataNascimento = dataNascimento;
         }
 
-        public Funcionario(ulong codigo, Funcionario gerente, Cargo cargo, bool ativo)
+        public Funcionario(ulong codigo, Funcionario gerente, string cargo, bool ativo)
         {
             this.Codigo = codigo;
             this.Gerente = gerente;
@@ -33,7 +33,7 @@ namespace LES_Almoxarifado.Classes.Modelos
             this.Ativo = ativo;
         }
 
-        public Funcionario(ulong codigo, string nome, string sobrenome, Funcionario gerente, Cargo cargo, bool ativo)
+        public Funcionario(ulong codigo, string nome, string sobrenome, Funcionario gerente, string cargo, bool ativo)
         {
             this.Codigo = codigo;
             this.Nome = nome;

@@ -21,5 +21,10 @@ namespace LES_Almoxarifado.Formularios
         {
 
         }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

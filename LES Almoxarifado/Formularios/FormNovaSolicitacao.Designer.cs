@@ -36,8 +36,10 @@
             this.cbxMaterial = new System.Windows.Forms.ComboBox();
             this.txtQtde = new System.Windows.Forms.TextBox();
             this.lblCustoTotal = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTotal = new System.Windows.Forms.TextBox();
+            this.lblCod = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnAdicionar
@@ -51,6 +53,7 @@
             this.btnAdicionar.TabIndex = 0;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = false;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // btnFechar
             // 
@@ -63,11 +66,12 @@
             this.btnFechar.TabIndex = 1;
             this.btnFechar.Text = "Cancelar";
             this.btnFechar.UseVisualStyleBackColor = false;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // lblMaterial
             // 
             this.lblMaterial.AutoSize = true;
-            this.lblMaterial.Location = new System.Drawing.Point(23, 46);
+            this.lblMaterial.Location = new System.Drawing.Point(23, 78);
             this.lblMaterial.Name = "lblMaterial";
             this.lblMaterial.Size = new System.Drawing.Size(44, 13);
             this.lblMaterial.TabIndex = 2;
@@ -76,7 +80,7 @@
             // lblFornecedor
             // 
             this.lblFornecedor.AutoSize = true;
-            this.lblFornecedor.Location = new System.Drawing.Point(269, 46);
+            this.lblFornecedor.Location = new System.Drawing.Point(269, 78);
             this.lblFornecedor.Name = "lblFornecedor";
             this.lblFornecedor.Size = new System.Drawing.Size(61, 13);
             this.lblFornecedor.TabIndex = 3;
@@ -85,7 +89,7 @@
             // lblQtde
             // 
             this.lblQtde.AutoSize = true;
-            this.lblQtde.Location = new System.Drawing.Point(23, 106);
+            this.lblQtde.Location = new System.Drawing.Point(23, 130);
             this.lblQtde.Name = "lblQtde";
             this.lblQtde.Size = new System.Drawing.Size(62, 13);
             this.lblQtde.TabIndex = 4;
@@ -94,50 +98,90 @@
             // cbxMaterial
             // 
             this.cbxMaterial.FormattingEnabled = true;
-            this.cbxMaterial.Location = new System.Drawing.Point(73, 43);
+            this.cbxMaterial.Items.AddRange(new object[] {
+            "Pneu 175mm",
+            "Pneu 185mm",
+            "Pneu 225mm",
+            "Monitor 20\"",
+            "Monitor 45\"",
+            "Mouse",
+            "Teclado",
+            "Computador",
+            "Kit embreagem",
+            "Lâmpada de farol",
+            "Óleo do motor",
+            "Filtro de óleo",
+            "Filtro de combústivel"});
+            this.cbxMaterial.Location = new System.Drawing.Point(73, 75);
             this.cbxMaterial.Name = "cbxMaterial";
             this.cbxMaterial.Size = new System.Drawing.Size(190, 21);
             this.cbxMaterial.TabIndex = 5;
             // 
             // txtQtde
             // 
-            this.txtQtde.Location = new System.Drawing.Point(91, 103);
+            this.txtQtde.Location = new System.Drawing.Point(91, 127);
             this.txtQtde.Name = "txtQtde";
             this.txtQtde.Size = new System.Drawing.Size(100, 20);
             this.txtQtde.TabIndex = 7;
+            this.txtQtde.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtQtde_KeyDown);
             // 
             // lblCustoTotal
             // 
             this.lblCustoTotal.AutoSize = true;
-            this.lblCustoTotal.Location = new System.Drawing.Point(23, 162);
+            this.lblCustoTotal.Location = new System.Drawing.Point(23, 174);
             this.lblCustoTotal.Name = "lblCustoTotal";
             this.lblCustoTotal.Size = new System.Drawing.Size(31, 13);
             this.lblCustoTotal.TabIndex = 8;
             this.lblCustoTotal.Text = "Total";
             // 
-            // textBox1
+            // txtTotal
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(336, 43);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 20);
-            this.textBox1.TabIndex = 9;
+            this.txtTotal.Enabled = false;
+            this.txtTotal.Location = new System.Drawing.Point(60, 171);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(100, 20);
+            this.txtTotal.TabIndex = 10;
             // 
-            // textBox2
+            // lblCod
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(60, 159);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 10;
+            this.lblCod.AutoSize = true;
+            this.lblCod.Location = new System.Drawing.Point(23, 29);
+            this.lblCod.Name = "lblCod";
+            this.lblCod.Size = new System.Drawing.Size(40, 13);
+            this.lblCod.TabIndex = 11;
+            this.lblCod.Text = "Código";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(69, 26);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(57, 20);
+            this.textBox3.TabIndex = 12;
+            this.textBox3.Text = "012";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "João Peças",
+            "Fate-Tech",
+            "Flavin do Pneu",
+            "Sorocaba motors"});
+            this.comboBox1.Location = new System.Drawing.Point(336, 75);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(221, 21);
+            this.comboBox1.TabIndex = 13;
             // 
             // FormNovaSolicitacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 260);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.lblCod);
+            this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.lblCustoTotal);
             this.Controls.Add(this.txtQtde);
             this.Controls.Add(this.cbxMaterial);
@@ -163,7 +207,9 @@
         private System.Windows.Forms.ComboBox cbxMaterial;
         private System.Windows.Forms.TextBox txtQtde;
         private System.Windows.Forms.Label lblCustoTotal;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTotal;
+        private System.Windows.Forms.Label lblCod;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

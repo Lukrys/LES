@@ -146,7 +146,7 @@
             // 
             this.cbxTipoUser.FormattingEnabled = true;
             this.cbxTipoUser.Items.AddRange(new object[] {
-            "Comum",
+            "Funcionário",
             "Administrador"});
             this.cbxTipoUser.Location = new System.Drawing.Point(356, 47);
             this.cbxTipoUser.Name = "cbxTipoUser";
@@ -215,7 +215,6 @@
             this.Controls.Add(this.lblSobrenome);
             this.Controls.Add(this.lblNome);
             this.Name = "FormCadastroUsuario";
-            this.Text = "FormCadastroUsuario";
             this.Text = "Cadastrar usuarios";
             this.ResumeLayout(false);
             this.PerformLayout();

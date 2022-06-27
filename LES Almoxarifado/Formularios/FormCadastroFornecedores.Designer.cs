@@ -25,14 +25,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.lblIncluirFornecedor = new System.Windows.Forms.Label();
             this.txtFornecedor = new System.Windows.Forms.TextBox();
             this.btnIncluir = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.lblExcluirFornecedor = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxFornecedor = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblIncluirFornecedor
@@ -53,7 +52,6 @@
             // 
             // btnIncluir
             // 
-            this.btnIncluir.Enabled = false;
             this.btnIncluir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnIncluir.Location = new System.Drawing.Point(404, 31);
             this.btnIncluir.Name = "btnIncluir";
@@ -78,13 +76,13 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Enabled = false;
             this.btnExcluir.Location = new System.Drawing.Point(404, 115);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(75, 23);
             this.btnExcluir.TabIndex = 4;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // lblExcluirFornecedor
             // 
@@ -95,22 +93,20 @@
             this.lblExcluirFornecedor.TabIndex = 5;
             this.lblExcluirFornecedor.Text = "Excluir fornecedor";
             // 
-            // comboBox1
+            // cbxFornecedor
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(146, 115);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(252, 21);
-            this.comboBox1.TabIndex = 6;
+            this.cbxFornecedor.FormattingEnabled = true;
+            this.cbxFornecedor.Location = new System.Drawing.Point(146, 115);
+            this.cbxFornecedor.Name = "cbxFornecedor";
+            this.cbxFornecedor.Size = new System.Drawing.Size(252, 21);
+            this.cbxFornecedor.TabIndex = 6;
             // 
             // FormCadastroFornecedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormCadastroFornecedores";
             this.ClientSize = new System.Drawing.Size(510, 235);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbxFornecedor);
             this.Controls.Add(this.lblExcluirFornecedor);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnFechar);
@@ -132,6 +128,6 @@
         private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Label lblExcluirFornecedor;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbxFornecedor;
     }
 }
