@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LES_Almoxarifado.Formularios
 {
-    public partial class FormSobre : Form
+    public partial class FormNovaSolicitacao : Form
     {
-        public FormSobre()
+        public FormNovaSolicitacao()
         {
             InitializeComponent();
         }

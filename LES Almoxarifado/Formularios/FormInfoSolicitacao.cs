@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LES_Almoxarifado.Formularios
 {
-    public partial class FormCadastroAlocacoes : Form
+    public partial class FormInfoSolicitacao : Form
     {
-        public FormCadastroAlocacoes()
+        public FormInfoSolicitacao()
         {
             InitializeComponent();
         }

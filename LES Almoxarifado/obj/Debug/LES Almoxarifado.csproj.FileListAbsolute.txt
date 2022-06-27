@@ -88,3 +88,10 @@ C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES 
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.csproj.CopyComplete
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.exe
 C:\Users\lukal\OneDrive\Área de Trabalho\Lucas\4ºAno\7º Semestre\LES\LES\LES Almoxarifado\obj\Debug\LES Almoxarifado.pdb
+C:\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormCadastroFornecedores.resources
+C:\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormCriarSenha.resources
+C:\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormInfoSolicitacao.resources
+C:\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormInventario.resources
+C:\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormNovaSolicitacao.resources
+C:\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormRecuperaSenha.resources
+C:\LES\LES\LES Almoxarifado\obj\Debug\LES_Almoxarifado.Formularios.FormSolicitacoes.resources
