@@ -38,13 +38,13 @@ namespace LES_Almoxarifado.Formularios
                 }
                 else
                 {
-                    /*if(txtFormLoginUser.Text == defaultUser && txtFormLoginPass.Text == defaultPassword)
+                    if(txtFormLoginUser.Text == defaultUser && txtFormLoginPass.Text == defaultPassword)
                    {
                        Program.usuarioAutorizado = true;
                        this.Hide();
                        formPrincipal.Show();
                    }
-                   else if(ConexaoBD.Login(txtFormLoginUser.Text, txtFormLoginPass.Text))
+                   /*else if(ConexaoBD.Login(txtFormLoginUser.Text, txtFormLoginPass.Text))
                    {
                        Program.usuarioAutorizado = true;
                        this.Hide();
