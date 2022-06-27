@@ -82,23 +82,11 @@
     <Compile Include="Classes\Modelos\SolicitacaoMaterial.cs" />
     <Compile Include="Classes\Modelos\Usuario.cs" />
     <Compile Include="Classes\Util\Utilidades.cs" />
-    <Compile Include="Formularios\FormCadastroAlocacoes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormCadastroAlocacoes.Designer.cs">
-      <DependentUpon>FormCadastroAlocacoes.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\FormCadastroFornecedores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\FormCadastroFornecedores.Designer.cs">
       <DependentUpon>FormCadastroFornecedores.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FormCadastroItemIndividual.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormCadastroItemIndividual.Designer.cs">
-      <DependentUpon>FormCadastroItemIndividual.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormCadastroUsuario.cs">
       <SubType>Form</SubType>
@@ -118,11 +106,29 @@
     <Compile Include="Formularios\FormCriarSenha.Designer.cs">
       <DependentUpon>FormCriarSenha.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FormInfoSolicitacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormInfoSolicitacao.Designer.cs">
+      <DependentUpon>FormInfoSolicitacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormInventario.Designer.cs">
+      <DependentUpon>FormInventario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormNovaSolicitacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormNovaSolicitacao.Designer.cs">
+      <DependentUpon>FormNovaSolicitacao.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormPrincipal.cs">
       <SubType>Form</SubType>
@@ -136,11 +142,11 @@
     <Compile Include="Formularios\FormRecuperaSenha.Designer.cs">
       <DependentUpon>FormRecuperaSenha.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FormSobre.cs">
+    <Compile Include="Formularios\FormSolicitacoes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FormSobre.Designer.cs">
-      <DependentUpon>FormSobre.cs</DependentUpon>
+    <Compile Include="Formularios\FormSolicitacoes.Designer.cs">
+      <DependentUpon>FormSolicitacoes.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormSplash.cs">
       <SubType>Form</SubType>
@@ -148,16 +154,10 @@
     <Compile Include="Formularios\FormSplash.Designer.cs">
       <DependentUpon>FormSplash.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FormCadastroItem.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormCadastroItem.Designer.cs">
-      <DependentUpon>FormCadastroItem.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\FormCadastroItem.resx">
-      <DependentUpon>FormCadastroItem.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FormCadastroFornecedores.resx">
+      <DependentUpon>FormCadastroFornecedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormCadastroUsuario.resx">
       <DependentUpon>FormCadastroUsuario.cs</DependentUpon>
@@ -168,8 +168,17 @@
     <EmbeddedResource Include="Formularios\FormCriarSenha.resx">
       <DependentUpon>FormCriarSenha.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormInfoSolicitacao.resx">
+      <DependentUpon>FormInfoSolicitacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormInventario.resx">
+      <DependentUpon>FormInventario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormNovaSolicitacao.resx">
+      <DependentUpon>FormNovaSolicitacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
@@ -177,8 +186,8 @@
     <EmbeddedResource Include="Formularios\FormRecuperaSenha.resx">
       <DependentUpon>FormRecuperaSenha.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FormSobre.resx">
-      <DependentUpon>FormSobre.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FormSolicitacoes.resx">
+      <DependentUpon>FormSolicitacoes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormSplash.resx">
       <DependentUpon>FormSplash.cs</DependentUpon>

@@ -33,17 +33,6 @@ namespace LES_Almoxarifado
             Application.Exit();
         }
 
-        private void SobreToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormSobre formSobre = new FormSobre();
-            formSobre.ShowDialog();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
 
@@ -103,6 +92,21 @@ namespace LES_Almoxarifado
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
+        }
+
+        private void btnFornecedores_Click(object sender, EventArgs e)
+        {
+            AbrirForm<FormCadastroFornecedores>();
+        }
+
+        private void btnSolicitacoes_Click(object sender, EventArgs e)
+        {
+            AbrirForm<FormSolicitacoes>();
+        }
+
+        private void btnInventario_Click(object sender, EventArgs e)
+        {
+            AbrirForm<FormInventario>();
         }
     }
 }

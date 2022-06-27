@@ -164,6 +164,7 @@
             this.btnFornecedores.TabIndex = 2;
             this.btnFornecedores.Text = "Fornecedores";
             this.btnFornecedores.UseVisualStyleBackColor = false;
+            this.btnFornecedores.Click += new System.EventHandler(this.btnFornecedores_Click);
             // 
             // btnSolicitacoes
             // 
@@ -180,6 +181,7 @@
             this.btnSolicitacoes.TabIndex = 1;
             this.btnSolicitacoes.Text = "Solicitações";
             this.btnSolicitacoes.UseVisualStyleBackColor = false;
+            this.btnSolicitacoes.Click += new System.EventHandler(this.btnSolicitacoes_Click);
             // 
             // btnInventario
             // 
@@ -196,6 +198,7 @@
             this.btnInventario.TabIndex = 0;
             this.btnInventario.Text = "Inventário";
             this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
             // 
             // panelConteudo
             // 

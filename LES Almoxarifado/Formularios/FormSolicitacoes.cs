@@ -7,23 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 namespace LES_Almoxarifado.Formularios
 {
-    public partial class FormCadastroFornecedores : Form
+    public partial class FormSolicitacoes : Form
     {
-        public FormCadastroFornecedores()
+        static FormNovaSolicitacao formNovaSolicitacao = new FormNovaSolicitacao();
+
+        public FormSolicitacoes()
         {
             InitializeComponent();
         }
 
-        private void btnFechar_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             Dispose();
         }
 
-        private void btnIncluir_Click(object sender, EventArgs e)
+        private void btnAdicionar_Click(object sender, EventArgs e)
         {
-
+            formNovaSolicitacao.Show();
         }
     }
 }

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace LES_Almoxarifado.Formularios
 {
-    public partial class FormCadastroItemIndividual : Form
+    public partial class FormInventario : Form
     {
-        public FormCadastroItemIndividual()
+        public FormInventario()
         {
             InitializeComponent();
+        }
+
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
