@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using Oracle.ManagedDataAccess.Client;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 
 /*namespace LES_Almoxarifado.Classes
 {

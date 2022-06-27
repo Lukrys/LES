@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LES_Almoxarifado.Classes;
+using System.Data.SqlClient;
 
 namespace LES_Almoxarifado.Formularios
 {
     public partial class FormLogin : Form
     {
+        public string strConn;
         private string defaultUser = "sysadmin";
         private string defaultPassword = "senhamestra";
 
