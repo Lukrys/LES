@@ -112,6 +112,12 @@
     <Compile Include="Formularios\FormConfiguraBanco.Designer.cs">
       <DependentUpon>FormConfiguraBanco.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FormCriarSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormCriarSenha.Designer.cs">
+      <DependentUpon>FormCriarSenha.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,11 +165,17 @@
     <EmbeddedResource Include="Formularios\FormConfiguraBanco.resx">
       <DependentUpon>FormConfiguraBanco.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormCriarSenha.resx">
+      <DependentUpon>FormCriarSenha.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormRecuperaSenha.resx">
+      <DependentUpon>FormRecuperaSenha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormSobre.resx">
       <DependentUpon>FormSobre.cs</DependentUpon>
